@@ -15,19 +15,9 @@ class ItemSeeder extends Seeder
     {
         DB::table('items')->insert([
             [
-                'id' => 1,
-                'product_id' => 1,
-                'quantity' => 4 ,
-            ],
-            [
                 'id' => 2,
                 'product_id' => 2,
-                'quantity' => 1 ,
-            ],
-            [
-                'id' => 3,
-                'product_id' => 4,
-                'quantity' => 4 ,
+                'quantity' => 1,
             ],
             [
                 'id' => 4,
